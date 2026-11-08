@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کمپین انتخاباتی علی‌رضا رضایی</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Vazirmatn', sans-serif;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .poster {
+            background-color: #fcf8ec; /* رنگ کاغذ */
+            width: 100%;
+            max-width: 450px;
+            border-radius: 15px;
+            overflow: hidden;
+            border: 6px solid #eab308; /* حاشیه زرد */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+        }
+
+        /* هدر قرمز */
+        .header {
+            background-color: #dc2626;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+            position: relative;
+            border-bottom: 6px solid #eab308;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            font-weight: 900;
+            margin-bottom: 5px;
+        }
+
+        .header h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #fef08a; /* زرد روشن */
+        }
+
+        .header::after {
+            content: '📢';
+            font-size: 40px;
+            position: absolute;
+            top: -10px;
+            left: 10px;
+            transform: rotate(-20deg);
+        }
+
+        /* متن معرفی */
+        .intro {
+            background-color: white;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px dashed #dc2626;
+            text-align: justify;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        /* بخش وعده‌ها */
+        .promises-container {
+            padding: 0 20px 20px 20px;
+        }
+
+        .promises-title {
+            background-color: #dc2626;
+            color: white;
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 900;
+            margin-bottom: 15px;
+            transform: rotate(-2deg);
+            box-shadow: 3px 3px 0px #eab308;
+        }
+
+        .promise-card {
+            background-color: white;
+            margin-bottom: 10px;
+            padding: 12px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 700;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            border-right: 5px solid #dc2626;
+        }
+
+        .promise-card .icon {
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        /* فوتر */
+        .footer {
+            background-color: #eab308;
+            text-align: center;
+            padding: 20px;
+            font-size: 16px;
+            font-weight: 900;
+            color: #1a1a1a;
+            border-top: 4px solid #dc2626;
+            position: relative;
+        }
+        
+        .footer::before {
+            content: '⭐';
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        .footer::after {
+            content: '⭐';
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="poster">
+        
+        <!-- هدر -->
+        <div class="header">
+            <h1>علی‌رضا رضایی</h1>
+            <h2>انتخابی برای همه، صدایی برای همه!</h2>
+        </div>
+        <!-- متن معرفی -->
+        <div class="intro">
+            <strong>دانش‌آموزان عزیز، وقتشه صدای شما شنیده بشه!</strong><br>
+            من علی‌رضا رضایی هستم؛ اومدم تا نماینده واقعی شما باشم، حرف‌هاتون رو بشنوم و برای ساختن مدرسه‌ای شادتر، بهتر و پرشاط‌تر تلاش کنم.
+        </div>
+
+        <!-- وعده‌ها -->
+        <div class="promises-container">
+            <div class="promises-title">برنامه‌ها و وعده‌های من:</div>
+            
+            <div class="promise-card">
+                <span class="icon">💬</span>
+                شنیدن نظرات، انتقادات و پیشنهادهای همه دانش‌آموزان
+            </div>
+            
+            <div class="promise-card">
+                <span class="icon">📢</span>
+                رساندن صدای شما به مسئولان مدرسه
+            </div>
+            
+            <div class="promise-card">
+                <span class="icon">🚌</span>
+                تلاش برای برگزاری اردوهای تفریحی و خاطره‌انگیز
+            </div>
+            
+            <div class="promise-card">
+                <span class="icon">⚽</span>
+                برگزاری مسابقات ورزشی جذاب و هیجان‌انگیز
+            </div>
+            
+            <div class="promise-card">
+                <span class="icon">🏆</span>
+                ایجاد رقابت‌های دوستانه بین کلاس‌ها
+            </div>
+
+            <div class="promise-card">
+                <span class="icon">🎉</span>
+                تلاش برای برگزاری جشن‌ها و برنامه‌های شاد
+            </div>
+
+            <div class="promise-card">
+                <span class="icon">🤝</span>
+                ایجاد محیطی صمیمی، شاد و دوستانه در مدرسه
+            </div>
+        </div>
+
+        <!-- فوتر -->
+        <div class="footer">
+            «من به جای شعار، برای تغییر تلاش می‌کنم!»
+        </div>
+
+    </div>
+
+</body>
+</html>
